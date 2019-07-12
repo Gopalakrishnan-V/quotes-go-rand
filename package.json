@@ -1,6 +1,6 @@
 {
   "name": "quotes-go",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Random Quotes generator with author names and images.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,10 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "homepage": "https://github.com/gopal221296/quotes-go-rand",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gopal221296/quotes-go-rand.git"
   }
 }

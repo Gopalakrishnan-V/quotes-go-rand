@@ -12,16 +12,38 @@ npm install quotes-go
 
 ## Usage
 
+##### Import:
 ```
 import quotesGo from "quotes-go";
+```
+<br />
 
-//Returns a random Quote every time
+##### Get Random Quote:
+```
 const randomQuote = quotesGo.getRandomQuote();
+// Returns The following Object
+```
 
-//Complete Authors List
+> {
+  text: "Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine.",
+  id: "379",
+  author: {
+    name: "Jack Ma",
+    shortDesc: "Chinese business magnate",
+    avatar: "https://etimg.etb2bimg.com/photo/68888260.cms"
+  }
+}
+
+<br />
+
+##### Complete Authors List:
+```
 const authorsList = quotesGo.getAuthorsList();
+```
+<br />
 
-//Quotes from specified author
+##### Quotes from specified author:
+```
 const authorQuotes = quotesGo.getAuthorQuotes("steve_jobs");
 ```
 

@@ -36,3 +36,5 @@ module.exports.getAuthorQuotes = authorID => {
     quotes: authorQuotes
   };
 };
+
+console.log(this.getRandomQuote());
