@@ -1,6 +1,6 @@
 {
   "name": "quotes-go",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Random Quotes generator with author names and images.",
   "main": "index.js",
   "scripts": {
