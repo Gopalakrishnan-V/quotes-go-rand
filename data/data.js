@@ -155,7 +155,7 @@ module.exports.authors = {
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/375px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg"
   },
   caesar: {
-    name: "Julius Caesar",
+    name: "Caesar",
     shortDesc: "Former Roman consul",
     avatar:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gaius_Iulius_Caesar_%28Vatican_Museum%29.jpg/220px-Gaius_Iulius_Caesar_%28Vatican_Museum%29.jpg"
