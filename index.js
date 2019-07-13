@@ -8,6 +8,7 @@ module.exports.getRandomQuote = () => {
   const randomQuote = { text, id };
   if (authors[authorID]) {
     randomQuote.author = authors[authorID];
+    randomQuote.author.id = authorID;
   }
   return randomQuote;
 };
@@ -36,5 +37,3 @@ module.exports.getAuthorQuotes = authorID => {
     quotes: authorQuotes
   };
 };
-
-console.log(this.getRandomQuote());
